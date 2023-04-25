@@ -1,7 +1,11 @@
 import CreateForm from "./CreateForm";
 
 const CreatePost = () => {
-  return <CreateForm />;
+  return (
+    <div className="create-post">
+      <CreateForm />
+    </div>
+  );
 };
 
 export default CreatePost;
